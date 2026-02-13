@@ -1,18 +1,18 @@
 # 🐑 Sheep Counter Challenge
 
-## Descripción
+## Description
 
-Aplicación Java que cuenta ovejas (`true`) en un rebaño excluyendo a los lobos (`false`).
+Java application that counts sheep (`true`) in a flock while excluding wolves (`false`).
 
-## Reglas del Challenge
+## Challenge Rules
 
-- ✅ No se puede usar `ELSE`
-- ✅ No se puede usar métodos adicionales
-- ✅ Código sin comentarios
-- ✅ Debe contar solo las ovejas (true)
-- ✅ Si solo hay lobos, mostrar mensaje especial
+- ✅ Cannot use `ELSE` statement
+- ✅ Cannot use additional methods
+- ✅ Code without comments
+- ✅ Must count only sheep (true values)
+- ✅ If only wolves remain, display special message
 
-## Casos de Prueba
+## Test Cases
 
 ### Test Case 1
 **Input:**
@@ -34,53 +34,53 @@ There are 17 sheep in total
 UPS!!! Wolfs've eaten the Sheeps
 ```
 
-## Requisitos
+## Requirements
 
-- JDK 8 o superior
+- JDK 8 or higher
 
-## Cómo ejecutar
+## How to Run
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
-git clone <tu-repositorio-url>
-cd sheep-counter
+git clone https://github.com/gzifoto-spec/java-sheep-counter-challenge.git
+cd java-sheep-counter-challenge
 ```
 
-2. Compila el código:
+2. Compile the code:
 ```bash
 javac SheepCounter.java
 ```
 
-3. Ejecuta la aplicación:
+3. Run the application:
 ```bash
 java SheepCounter
 ```
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
-sheep-counter/
+java-sheep-counter-challenge/
 ├── SheepCounter.java
 ├── README.md
 └── .gitignore
 ```
 
-## Tecnologías
+## Technologies
 
 - Java
-- No se utilizan librerías externas
+- No external libraries used
 
-## Características Técnicas
+## Technical Features
 
-- Sin uso de sentencias `ELSE`
-- Sin métodos adicionales (todo en `main`)
-- Código limpio sin comentarios
-- Operadores ternarios para lógica condicional
+- No `ELSE` statements used
+- No additional methods (all logic in `main`)
+- Clean code without comments
+- Ternary operators for conditional logic
 
-## Autor
+## Author
 
-Tu nombre aquí
+Xavier Piñeiro aka gzifoto
 
-## Licencia
+## License
 
-MIT
+GPLv3
