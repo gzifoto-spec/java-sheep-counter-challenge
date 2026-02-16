@@ -4,6 +4,8 @@
 
 Java application that counts sheep (`true`) in a flock while excluding wolves (`false`).
 
+<img width="600" alt="Screenshot From 2026-02-16 17-16-47" src="https://github.com/user-attachments/assets/c3c42e40-e92d-4ae7-ac39-4e170a7cc461" />
+
 ## Challenge Rules
 
 - ✅ Cannot use `ELSE` statement
